@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 49.883 sec <<< FAILURE! - in TestSuite
-beforeTest(continuum.cucumber.testRunner.TestRunner)  Time elapsed: 23.246 sec  <<< FAILURE!
-java.lang.NullPointerException: null
-	at continuum.cucumber.WebDriverInitialization.createInstance(WebDriverInitialization.java:85)
-	at continuum.cucumber.testRunner.TestRunner.beforeTest(TestRunner.java:60)
-
-afterTest(continuum.cucumber.testRunner.TestRunner)  Time elapsed: 26.145 sec  <<< FAILURE!
-java.lang.NullPointerException: null
-	at continuum.cucumber.testRunner.TestRunner.afterTest(TestRunner.java:85)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 185.774 sec - in TestSuite

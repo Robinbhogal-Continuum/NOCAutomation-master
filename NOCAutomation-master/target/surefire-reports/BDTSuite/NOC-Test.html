@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>NOC-Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 20 16:01:55 IST 2016</td>
+<td>Started on:</td><td>Thu Oct 20 19:16:06 IST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>49 seconds (49141 ms)</td>
+<tr><td>Total time:</td><td>185 seconds (185146 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,97 +67,71 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='continuum.cucumber.testRunner.TestRunner.beforeTest()'><b>beforeTest</b><br>Test class: continuum.cucumber.testRunner.TestRunner</td>
-<td><div><pre>java.lang.NullPointerException
-	at continuum.cucumber.WebDriverInitialization.createInstance(WebDriverInitialization.java:85)
-	at continuum.cucumber.testRunner.TestRunner.beforeTest(TestRunner.java:60)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2135449562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2135449562'><pre>java.lang.NullPointerException
-	at continuum.cucumber.WebDriverInitialization.createInstance(WebDriverInitialization.java:85)
-	at continuum.cucumber.testRunner.TestRunner.beforeTest(TestRunner.java:60)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-<tr>
-<td title='continuum.cucumber.testRunner.TestRunner.afterTest()'><b>afterTest</b><br>Test class: continuum.cucumber.testRunner.TestRunner</td>
-<td><div><pre>java.lang.NullPointerException
-	at continuum.cucumber.testRunner.TestRunner.afterTest(TestRunner.java:85)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace384752294", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace384752294'><pre>java.lang.NullPointerException
-	at continuum.cucumber.testRunner.TestRunner.afterTest(TestRunner.java:85)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.TestRunner.afterRun(TestRunner.java:1012)
-	at org.testng.TestRunner.run(TestRunner.java:636)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-</pre></div></td>
-<td>0</td>
-<td>null</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='continuum.cucumber.testRunner.TestRunner.feature()'><b>feature</b><br>Test class: continuum.cucumber.testRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: As a user status I want to create ticket on NOC with different status</td>
+<td title='continuum.cucumber.testRunner.TestRunner.feature()'><b>feature</b><br>Test class: continuum.cucumber.testRunner.TestRunner<br>Test method: Runs Cucumber Feature<br>Parameters: As a user status I want to create ticket on NOC with different status<br/>
+<a href="#Output-1658020779" onClick='toggleBox("Output-1658020779", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1658020779" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1658020779">
+Opening application with urlhttps://noc.dtitsupport247.net<br/>
+Log in to NOC application<br/>
+Enter login credentials  to ITS portal<br/>
+Writing user_sdmto Login email id textbox<br/>
+Writing Sdm@1234to Login password text box<br/>
+Clicking on  Login button<br/>
+Clicking on  Close btn on popup<br/>
+Close btn on popup exists true<br/>
+Mouse hovering over management Tab<br/>
+Mouse hovering over Tickets<br/>
+Clicking on  Generate New ticket btn<br/>
+Getting window handle<br/>
+Switching to new window<br/>
+Getting window handle<br/>
+Select value from MSP CMSPL32 sucessfully<br/>
+Writing Automation test ticketto  subject text box<br/>
+Enter Value in  subject text box text field Automation test ticket Pass Value Automation test ticket entered successfully<br/>
+Writing Description:automation test ticketto  description text box<br/>
+Enter Value in  description text box text field Description:automation test ticket Pass Value Description:automation test ticket entered successfully<br/>
+Writing 99to  priority<br/>
+Enter Value in  priority text field 99 Pass Value 99 entered successfully<br/>
+Select value from  Family dropdown Antivirus sucessfully<br/>
+Select value from  Ticket type dropdown Critical task need to be carried out.Require approval from CMSPL32 team Selected  Successfully<br/>
+Get Selected List value from  sub status dropdown Selected value is New<br/>
+<B><I><font size='4' color='Blue'>Select value from  sub status dropdown New Fail  Found Exception while selecting value Cannot locate option with value: New
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'RMM-LT-654', ip: '10.2.14.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: unknown</font></I></B><br/>
+Select value from  sub statsu dropdown Resolved: Solution Verified Selected  Successfully<br/>
+<B><I><font size='4' color='Blue'>Select value from  Resource dropdown <Resource> Fail  Found Exception while selecting value Cannot locate option with value: <Resource>
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'RMM-LT-654', ip: '10.2.14.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: driver.version: unknown</font></I></B><br/>
+Clicking on   submit btn<br/>
+Get ticket no from popup<br/>
+Getting alert message<br/>
+Waiting to alert<br/>
+Accepting alert<br/>
+Waiting to alert<br/>
+Generated Ticket no201610200000204<br/>
+Verify ticket created in database<br/>
+Verify Ticket  generated in DB<br/>
+SQL server connection: jdbc:sqlserver://10.2.40.76:1433;databaseName=NOCBO ;user=QA Automation;password=aUt0T3$t#958<br/>
+SQL query to execute: Select status,Assignto,assigntocell,Assigntogroup,Assigntouser,* from jmgttaskmanagement with(NOLOCK) where taskid in 201610200000204<br/>
+Ticket details from DB :null<br/>
+*****  feature test has Passed *****<br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
+<td>154</td>
 <td>continuum.cucumber.testRunner.TestRunner@2d8f65a4</td></tr>
 </table><p>
 </body>

@@ -48,9 +48,11 @@ public class NOCGenerateTicketPage {
 	System.out.println("Window handle of generate ticket"+generateTicketWindowHnd);
 		
 	
-		if(member.equalsIgnoreCase("CMSPL32"))
+	if(member.equalsIgnoreCase("CMSPL32"))
 		{
-			wd.selectByValueFromDropDown(MSP, member);
+		//System.out.println();   
+		wd.selectByTextFromDropDown(MSP, member);
+			//wd.selectByValueFromDropDown(MSP, "CMSPL32");
 			wd.waitFor(10000);
 			wd.getWebdriver().findElement(By.xpath("//input[contains(@value,'"+site+"')]")).click();
 			wd.waitFor(2000);

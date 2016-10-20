@@ -1,1 +1,108 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3759409970,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open NOC application",
+            "match": {
+              "location": "StepDefinations.openApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37185682672,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is login to NOC portal",
+            "match": {
+              "location": "StepDefinations.user_is_login_to_NOC_portal()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Verify ticket created in NOC",
+        "description": "",
+        "id": "as-a-user-status-i-want-to-create-ticket-on-noc-with-different-status;verify-ticket-created-in-noc;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52940549026,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is able to create ticket in NOC portal for \"CMSPL32\", \"AKTS\",\"\u003cResource\u003e\" with status in \"New\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CMSPL32",
+                  "offset": 49
+                },
+                {
+                  "val": "AKTS",
+                  "offset": 60
+                },
+                {
+                  "val": "\u003cResource\u003e",
+                  "offset": 67
+                },
+                {
+                  "val": "New",
+                  "offset": 95
+                }
+              ],
+              "location": "StepDefinations.user_is_able_to_create_ticket_in_NOC_portal_for_with_status_in(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60315191130,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify ticket created in Database",
+            "match": {
+              "location": "StepDefinations.verify_ticket_created_in_Database()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@BVTTest"
+          }
+        ]
+      }
+    ],
+    "name": "As a user status I want to create ticket on NOC with different status",
+    "description": "",
+    "id": "as-a-user-status-i-want-to-create-ticket-on-noc-with-different-status",
+    "keyword": "Feature",
+    "uri": "DemoSprint/TicketGenerate.feature"
+  }
+]
