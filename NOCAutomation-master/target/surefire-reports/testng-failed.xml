@@ -21,7 +21,7 @@
           <include name="afterTest"/>
           <include name="setUpClass"/>
           <include name="beforeTest"/>
-          <include name="feature" invocation-numbers="0"/>
+          <include name="feature"/>
         </methods>
       </class> <!-- continuum.cucumber.testRunner.TestRunner -->
     </classes>

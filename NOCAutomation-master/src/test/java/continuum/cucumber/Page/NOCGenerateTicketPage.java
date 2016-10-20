@@ -2,8 +2,10 @@
 package continuum.cucumber.Page;
 
 import java.sql.Connection;
+import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
 
 import continuum.cucumber.DatabaseUtility;
@@ -27,61 +29,96 @@ public class NOCGenerateTicketPage {
 	 public Locator subStatusDropdown= new Locator(" sub statsu dropdown", "cboSubStatusList","id");
 	public Locator memberList= new Locator(" member list","//tr[@class='header_TR']");
 	 public Locator memberSearchBtn= new Locator(" Memeber Search btn", "//img[@alt='select Member']");
+	 public Locator MemberCode= new Locator(" MemberCode", "//table[@id='innertable']/tbody/tr[2]/td[1]");
+	 public Locator MSP= new Locator("MSP", "//select[@id='cboMSP']");
 	 
 	public String createTicket(String member, String site, String resource, String datasheet) {
 		String TicketNo=null;
 		
+		
+		  String handle= wd.getWindowHandle();
+		  
+	        System.out.println(handle);
+
+		
 		wd.waitFor(3000);
 		wd.switchToNewWindow();
 		wd.waitFor(5000);
-		String generateTicketWindowHnd=wd.getWindowHandle();
-		System.out.println("Window handle of generate ticket"+generateTicketWindowHnd);
+	String generateTicketWindowHnd=wd.getWindowHandle();
+	System.out.println("Window handle of generate ticket"+generateTicketWindowHnd);
+		
+	
+		if(member.equalsIgnoreCase("CMSPL32"))
+		{
+			wd.selectByValueFromDropDown(MSP, member);
+			wd.waitFor(10000);
+			wd.getWebdriver().findElement(By.xpath("//input[contains(@value,'"+site+"')]")).click();
+			wd.waitFor(2000);
+			wd.clearandSendKeys("Automation test ticket", subjectTB);
+			wd.clearandSendKeys("Description:automation test ticket", descriptionTB);
+			wd.clearandSendKeys("99", priority);
+
+			wd.selectByTextFromDropDown(familyDropdown,"Antivirus");
+			wd.selectValueByIndexFromDropDown(ticketTypeDropdown, 0);
+			
+		    String status=wd.getSelectedValue(statusDropdown);
+		    if(status.equalsIgnoreCase("New"))
+			        wd.selectByValueFromDropDown(statusDropdown, "New");
+			wd.waitForAjax();
+			wd.selectValueByIndexFromDropDown(subStatusDropdown, 1);
+			wd.selectByValueFromDropDown(resourceDropdown, resource);
+			wd.clickElement(submitBtn);
+			Reporter.log("Get ticket no from popup");
+			String ticMsg=wd.getAlertMessage(3000);
+			System.out.println("Ticket msg"+ticMsg);
+			wd.acceptAlert();
+			int last=ticMsg.length();
+			TicketNo=ticMsg.substring(last-18,last);
+			TicketNo=TicketNo.replace("/","").replace("-","").trim();
+			Reporter.log("Generated Ticket no"+TicketNo);
+			System.out.println("Ticket no"+TicketNo);
+
+		
+		}
+		
+		else
+		{
+		
 		wd.clearandSendKeys(member, mspSearch);
 		wd.clickElement(memberSearchBtn);
-		wd.waitFor(8000);
+		wd.waitFor(6000);
 		Reporter.log("Switching to member search window");
+		
+	
 		wd.switchToNewWindow();
-		wd.waitFor(5000);
+		wd.waitFor(6000);
 		String memberSearchWindowHnd=wd.getWindowHandle();
+		wd.getWebdriver().manage().window().maximize();
+		
+		
 		System.out.println("Window handle of member search"+memberSearchWindowHnd);
-		wd.waitForElementToBeDisplayed(memberList, 3000);
+		
+	    System.out.println(wd.findElementPresent(memberList)); 
+		
 		//
 		//wd.getWebdriver().findElement(By.xpath("//table[@id='innertable']/tbody/tr[2]/td"+ member+"')][1]")).click();
-		wd.getWebdriver().findElement(By.xpath("//table[@id='innertable']/tbody/tr[2]/td")).click();
+		//wd.switchToWindow(memberSearchWindowHnd);
+		//wd.waitFor(3000);
+	    
+	//    wd.mouseHoverAndClick(findElement(By.xpath("//table[@id='innertable']/tbody/tr[2]/td[1]")));
+		
+	    wd.mouseHoverAndClick(MemberCode);
 
 		
-		//wd.getWebdriver().findElement(By.xpath("//tr/td[contains(text(),'"+ member+"')][1]")).click();
+		//wd.getWebdriver().findElement(By.xpath("//tr/td[contains(text(),'"+ member+"')][1]")).
 		wd.waitFor(3000);
-		wd.switchToWindow(generateTicketWindowHnd);
+     	wd.switchToWindow(generateTicketWindowHnd);
 		wd.waitFor(5000);
 		Reporter.log("Select corresponding site");
-		wd.getWebdriver().findElement(By.xpath("//input[contains(@value,'"+site+"')]")).click();
-		wd.waitFor(2000);
-		wd.clearandSendKeys("Automation test ticket", subjectTB);
-		wd.clearandSendKeys("Description:automation test ticket", descriptionTB);
-		wd.clearandSendKeys("99", priority);
-
-		wd.selectByTextFromDropDown(familyDropdown,"Antivirus");
-		wd.selectValueByIndexFromDropDown(ticketTypeDropdown, 0);
+	  }
 		
-	    String status=wd.getSelectedValue(statusDropdown);
-	    if(status.equalsIgnoreCase("New"))
-		        wd.selectByValueFromDropDown(statusDropdown, "New");
-		wd.waitForAjax();
-		wd.selectValueByIndexFromDropDown(subStatusDropdown, 1);
-		wd.selectByValueFromDropDown(resourceDropdown, resource);
-		wd.clickElement(submitBtn);
-		Reporter.log("Get ticket no from popup");
-		String ticMsg=wd.getAlertMessage(3000);
-		System.out.println("Ticket msg"+ticMsg);
-		wd.acceptAlert();
-		int last=ticMsg.length();
-		TicketNo=ticMsg.substring(last-18,last);
-		TicketNo=TicketNo.replace("/","").replace("-","").trim();
-		Reporter.log("Generated Ticket no"+TicketNo);
-		System.out.println("Ticket no"+TicketNo);
 		return TicketNo;
-	}
+		}
 
 	public String TicketNoFromDB(String nocTicket) {
 		    Reporter.log("Verify Ticket  generated in DB");

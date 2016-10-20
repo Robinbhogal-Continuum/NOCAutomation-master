@@ -1,4 +1,4 @@
-Feature: As a user I want to check all sub Menus in Activity Main Menu
+Feature: As a user I want to check all sub Menus in all Main Menus of NOC Portal
 
 Background:
  Given Open NOC application 

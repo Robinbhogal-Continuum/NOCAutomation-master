@@ -12,4 +12,4 @@ Scenario Outline: Verify ticket created in NOC
   
 Examples: 
  |Member      |Site    |Status|
- |CMSPL32     |Georgia |New|
+ |CMSPL32     |	AKTS    |New|
