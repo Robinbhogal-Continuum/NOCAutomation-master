@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="154.257" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="71.117" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="F:\Selenium\Webdriver\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8857030894724147977.tmp"/>
+    <property name="classworlds.conf" value="F:\Selenium\Webdriver\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6270226404212098002.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk1.8.0_101/jre/bin/server;C:/Program Files/Java/jdk1.8.0_101/jre/bin;C:/Program Files/Java/jdk1.8.0_101/jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_101/bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Users\robin.bhogal\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,5 +60,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="feature" classname="continuum.cucumber.testRunner.TestRunner" time="154.257"/>
+  <testcase name="feature" classname="continuum.cucumber.testRunner.TestRunner" time="71.117"/>
 </testsuite>

@@ -6,6 +6,7 @@ import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.Reporter;
 
 import continuum.cucumber.DatabaseUtility;
@@ -27,14 +28,17 @@ public class NOCGenerateTicketPage {
 	 public Locator statusDropdown= new Locator(" sub status dropdown", "//select[@id='cboStatus']");
 	 public Locator submitBtn= new Locator(" submit btn", "//input[@id='cmdOK']");
 	 public Locator subStatusDropdown= new Locator(" sub statsu dropdown", "cboSubStatusList","id");
-	public Locator memberList= new Locator(" member list","//tr[@class='header_TR']");
+	 public Locator memberList= new Locator(" member list","//tr[@class='header_TR']");
 	 public Locator memberSearchBtn= new Locator(" Memeber Search btn", "//img[@alt='select Member']");
 	 public Locator MemberCode= new Locator(" MemberCode", "//table[@id='innertable']/tbody/tr[2]/td[1]");
 	 public Locator MSP= new Locator("MSP", "//select[@id='cboMSP']");
 	 
-	public String createTicket(String member, String site, String resource, String datasheet) {
-		String TicketNo=null;
+	
+   
+	 
+	 public String createTicket(String member, String site, String resource, String datasheet) {
 		
+		 String TicketNo=null;
 		
 		  String handle= wd.getWindowHandle();
 		  
@@ -50,9 +54,8 @@ public class NOCGenerateTicketPage {
 	
 	if(member.equalsIgnoreCase("CMSPL32"))
 		{
-		//System.out.println();   
+		
 		wd.selectByTextFromDropDown(MSP, member);
-			//wd.selectByValueFromDropDown(MSP, "CMSPL32");
 			wd.waitFor(10000);
 			wd.getWebdriver().findElement(By.xpath("//input[contains(@value,'"+site+"')]")).click();
 			wd.waitFor(2000);
@@ -131,11 +134,16 @@ public class NOCGenerateTicketPage {
 		   String username= Utilities.getMavenProperties("DBUsername");
 		   String password= Utilities.getMavenProperties("DBPwd");
 		    Connection conn=DatabaseUtility.createConnection(databaseName, sqlServerURL, username, password);
-		    String query="Select status,Assignto,assigntocell,Assigntogroup,Assigntouser,* from jmgttaskmanagement with(NOLOCK) where taskid in "+nocTicket;
+		    //String query="Select status,Assignto,assigntocell,Assigntogroup,Assigntouser,* from jmgttaskmanagement with(NOLOCK) where taskid in "+nocTicket;
+		    
+		  String query="Select * from jmgttaskmanagement with(NOLOCK) where taskid = "+nocTicket;
 		    String result=DatabaseUtility.executQuery(conn, query);
 		    Reporter.log("Ticket details from DB :"+result);
 		    System.out.println("Result ="+result);
 		    return result;
-	}
+		    
 
+	}
+	
+	
 }

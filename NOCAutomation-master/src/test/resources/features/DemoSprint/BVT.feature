@@ -5,13 +5,13 @@ Background:
  And User is login to NOC portal 
 
 
-@BVT
+@Robin
 Scenario: Verify all sub menus under Main Menu of NOC Portal
  When  User clicks on Activity  Main Menu
  Then Verify Correct Sub menus get displayed  in Activity Main Menu
 
 When  User clicks on Analysis  Main Menu
-Then Verify Correct Sub menus get displayed 
+Then Verify Correct Sub menus get displayed in Analysis Main Menu
  
   When  User clicks on  ITS247 Tools Main Menu
  Then Verify Correct Sub menus get displayed in ITS247Tools Main Menu

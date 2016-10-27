@@ -4,7 +4,7 @@ Background:
  Given Open NOC application 
  And User is login to NOC portal 
 
-@BVTTest
+@BVT
 Scenario Outline: Verify ticket created in NOC
  When  User is able to create ticket in NOC portal for "<Member>", "<Site>","<Resource>" with status in "<Status>"
  Then Verify ticket created in Database 

@@ -26,131 +26,426 @@
       <![CDATA[Close btn on popup exists true]]>
     </line>
     <line>
-      <![CDATA[Mouse hovering over management Tab]]>
+      <![CDATA[Mouse hovering over Activity]]>
     </line>
     <line>
-      <![CDATA[Mouse hovering over Tickets]]>
+      <![CDATA[Activity exists true]]>
     </line>
     <line>
-      <![CDATA[Clicking on  Generate New ticket btn]]>
+      <![CDATA[MenuAccessManagement exists true]]>
     </line>
     <line>
-      <![CDATA[Getting window handle]]>
+      <![CDATA[SwtichGroup exists true]]>
     </line>
     <line>
-      <![CDATA[Switching to new window]]>
+      <![CDATA[UserManagement exists true]]>
     </line>
     <line>
-      <![CDATA[Getting window handle]]>
+      <![CDATA[OldEventManagement exists true]]>
     </line>
     <line>
-      <![CDATA[Select value from MSP CMSPL32 sucessfully]]>
+      <![CDATA[AutoTicketRuleVeritas exists true]]>
     </line>
     <line>
-      <![CDATA[Writing Automation test ticketto  subject text box]]>
+      <![CDATA[AllowbypassTL exists true]]>
     </line>
     <line>
-      <![CDATA[Enter Value in  subject text box text field Automation test ticket Pass Value Automation test ticket entered successfully]]>
+      <![CDATA[Addknowledgebase exists true]]>
     </line>
     <line>
-      <![CDATA[Writing Description:automation test ticketto  description text box]]>
+      <![CDATA[ManageFAQKBArticle exists true]]>
     </line>
     <line>
-      <![CDATA[Enter Value in  description text box text field Description:automation test ticket Pass Value Description:automation test ticket entered successfully]]>
+      <![CDATA[UpdateUser exists true]]>
     </line>
     <line>
-      <![CDATA[Writing 99to  priority]]>
+      <![CDATA[MainDashboardConfig exists true]]>
     </line>
     <line>
-      <![CDATA[Enter Value in  priority text field 99 Pass Value 99 entered successfully]]>
+      <![CDATA[EscalationCategoryRelationship exists true]]>
     </line>
     <line>
-      <![CDATA[Select value from  Family dropdown Antivirus sucessfully]]>
+      <![CDATA[PartnerNOCSupportconfig exists true]]>
     </line>
     <line>
-      <![CDATA[Select value from  Ticket type dropdown Critical task need to be carried out.Require approval from CMSPL32 team Selected  Successfully]]>
+      <![CDATA[ReasonAssigntoMSP exists true]]>
     </line>
     <line>
-      <![CDATA[Get Selected List value from  sub status dropdown Selected value is New]]>
+      <![CDATA[ManageAutoTicketTemplate exists true]]>
     </line>
     <line>
-      <![CDATA[<B><I><font size='4' color='Blue'>Select value from  sub status dropdown New Fail  Found Exception while selecting value Cannot locate option with value: New
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'RMM-LT-654', ip: '10.2.14.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
-Driver info: driver.version: unknown</font></I></B>]]>
+      <![CDATA[ManageSubStatus exists true]]>
     </line>
     <line>
-      <![CDATA[Select value from  sub statsu dropdown Resolved: Solution Verified Selected  Successfully]]>
+      <![CDATA[Mouse hovering over Analysis]]>
     </line>
     <line>
-      <![CDATA[<B><I><font size='4' color='Blue'>Select value from  Resource dropdown <Resource> Fail  Found Exception while selecting value Cannot locate option with value: <Resource>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'RMM-LT-654', ip: '10.2.14.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
-Driver info: driver.version: unknown</font></I></B>]]>
+      <![CDATA[Analysis exists true]]>
     </line>
     <line>
-      <![CDATA[Clicking on   submit btn]]>
+      <![CDATA[TicketPerformancereport exists true]]>
     </line>
     <line>
-      <![CDATA[Get ticket no from popup]]>
+      <![CDATA[Liveuserreport exists true]]>
     </line>
     <line>
-      <![CDATA[Getting alert message]]>
+      <![CDATA[Alertfluctuation exists true]]>
     </line>
     <line>
-      <![CDATA[Waiting to alert]]>
+      <![CDATA[WorlloadAlert exists true]]>
     </line>
     <line>
-      <![CDATA[Accepting alert]]>
+      <![CDATA[TicketAnalysisReport exists true]]>
     </line>
     <line>
-      <![CDATA[Waiting to alert]]>
+      <![CDATA[Last24Devicedown exists true]]>
     </line>
     <line>
-      <![CDATA[Generated Ticket no201610200000204]]>
+      <![CDATA[LmiRescueAnalysis exists true]]>
     </line>
     <line>
-      <![CDATA[Verify ticket created in database]]>
+      <![CDATA[Mouse hovering over ITS247 Tools]]>
     </line>
     <line>
-      <![CDATA[Verify Ticket  generated in DB]]>
+      <![CDATA[ITS247 Tools exists true]]>
     </line>
     <line>
-      <![CDATA[SQL server connection: jdbc:sqlserver://10.2.40.76:1433;databaseName=NOCBO ;user=QA Automation;password=aUt0T3$t#958]]>
+      <![CDATA[ITS247submenu exists true]]>
     </line>
     <line>
-      <![CDATA[SQL query to execute: Select status,Assignto,assigntocell,Assigntogroup,Assigntouser,* from jmgttaskmanagement with(NOLOCK) where taskid in 201610200000204]]>
+      <![CDATA[ITS247submenu exists true]]>
     </line>
     <line>
-      <![CDATA[Ticket details from DB :null]]>
+      <![CDATA[Mouse hovering over Management]]>
+    </line>
+    <line>
+      <![CDATA[Management exists true]]>
+    </line>
+    <line>
+      <![CDATA[IntellimonAlerts exists true]]>
+    </line>
+    <line>
+      <![CDATA[Alerts exists true]]>
+    </line>
+    <line>
+      <![CDATA[Tickets exists true]]>
+    </line>
+    <line>
+      <![CDATA[TamIndiaDashboard exists true]]>
+    </line>
+    <line>
+      <![CDATA[PartnerFeedback exists true]]>
+    </line>
+    <line>
+      <![CDATA[PartnerFlag exists true]]>
+    </line>
+    <line>
+      <![CDATA[ManagedCustomerSurvetDetails exists true]]>
+    </line>
+    <line>
+      <![CDATA[ConnectwiseSiteMapping exists true]]>
+    </line>
+    <line>
+      <![CDATA[ConnectwiseSiteMapping exists true]]>
+    </line>
+    <line>
+      <![CDATA[SLADashboardConditionMapping exists true]]>
+    </line>
+    <line>
+      <![CDATA[ManagedPSAPartnetUser exists true]]>
+    </line>
+    <line>
+      <![CDATA[Priotization exists true]]>
+    </line>
+    <line>
+      <![CDATA[NOCWorkflowRedesign exists true]]>
+    </line>
+    <line>
+      <![CDATA[EmailtoTicket exists true]]>
+    </line>
+    <line>
+      <![CDATA[Mouse hovering over Settings]]>
+    </line>
+    <line>
+      <![CDATA[Settings exists true]]>
+    </line>
+    <line>
+      <![CDATA[Usersettings exists true]]>
+    </line>
+    <line>
+      <![CDATA[MessageBoard exists true]]>
+    </line>
+    <line>
+      <![CDATA[ViewFAQ exists true]]>
+    </line>
+    <line>
+      <![CDATA[Scheduledticketdue exists true]]>
+    </line>
+    <line>
+      <![CDATA[Closedalertreminder exists true]]>
+    </line>
+    <line>
+      <![CDATA[Handoverrequest exists true]]>
+    </line>
+    <line>
+      <![CDATA[Handoverrecive exists true]]>
+    </line>
+    <line>
+      <![CDATA[Mouse hovering over Report]]>
+    </line>
+    <line>
+      <![CDATA[Report exists true]]>
+    </line>
+    <line>
+      <![CDATA[MNList exists true]]>
+    </line>
+    <line>
+      <![CDATA[Alert exists true]]>
+    </line>
+    <line>
+      <![CDATA[ReportTicket exists true]]>
+    </line>
+    <line>
+      <![CDATA[NOCUsersReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[ReportITS247Tools exists true]]>
+    </line>
+    <line>
+      <![CDATA[EscalationAuditReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[PartnerDefinedMonitoring exists true]]>
+    </line>
+    <line>
+      <![CDATA[PartnerSupportPortal exists true]]>
+    </line>
+    <line>
+      <![CDATA[PerformanceReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[PSAReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[PartnetAlertCQTicketDetails exists true]]>
+    </line>
+    <line>
+      <![CDATA[NOCMISReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[RealTimePlayStatusManagement exists true]]>
+    </line>
+    <line>
+      <![CDATA[FalseAlarmReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[SMSSummaryReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[IntellimonKnowledgebaseReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[CustomerFeedbackSurveyReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[TechAdvantageReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[MSPUserDetails exists true]]>
+    </line>
+    <line>
+      <![CDATA[ManualSurverDetails exists true]]>
+    </line>
+    <line>
+      <![CDATA[Mouse hovering over DashboardInbox]]>
+    </line>
+    <line>
+      <![CDATA[DashboardInbox exists true]]>
+    </line>
+    <line>
+      <![CDATA[PartnetCommunicationInbox exists true]]>
+    </line>
+    <line>
+      <![CDATA[TeamboxShort exists true]]>
+    </line>
+    <line>
+      <![CDATA[GlobalServiceDeskInbox exists true]]>
+    </line>
+    <line>
+      <![CDATA[NocWorkflowRedesignBeta exists true]]>
+    </line>
+    <line>
+      <![CDATA[ContinuumVaultDashboard exists true]]>
+    </line>
+    <line>
+      <![CDATA[OffHRmaint exists true]]>
+    </line>
+    <line>
+      <![CDATA[ServerAlerts exists true]]>
+    </line>
+    <line>
+      <![CDATA[VeritasBackupAlert exists true]]>
+    </line>
+    <line>
+      <![CDATA[CommonAlert exists true]]>
+    </line>
+    <line>
+      <![CDATA[DeviceDownPreprocessing exists true]]>
+    </line>
+    <line>
+      <![CDATA[AgentMalfunctionInbox exists true]]>
+    </line>
+    <line>
+      <![CDATA[ApplicationMonitoring exists true]]>
+    </line>
+    <line>
+      <![CDATA[CallingQueue exists true]]>
+    </line>
+    <line>
+      <![CDATA[PreventiveMaintenanceInbox exists true]]>
+    </line>
+    <line>
+      <![CDATA[EmergencyLowDiskSpace exists true]]>
+    </line>
+    <line>
+      <![CDATA[EmailTransactionMonitoring exists true]]>
+    </line>
+    <line>
+      <![CDATA[VSSWriterAlerts exists true]]>
+    </line>
+    <line>
+      <![CDATA[PCService exists true]]>
+    </line>
+    <line>
+      <![CDATA[ServerProjects exists true]]>
+    </line>
+    <line>
+      <![CDATA[LinuxDashboard exists true]]>
+    </line>
+    <line>
+      <![CDATA[TechAdvantageDesktop exists true]]>
+    </line>
+    <line>
+      <![CDATA[TechAdvantageServer exists true]]>
+    </line>
+    <line>
+      <![CDATA[PSAMonitoringDashboard exists true]]>
+    </line>
+    <line>
+      <![CDATA[SLADashboardAlert exists true]]>
+    </line>
+    <line>
+      <![CDATA[SLADashboardTickets exists true]]>
+    </line>
+    <line>
+      <![CDATA[PSTInbox exists true]]>
+    </line>
+    <line>
+      <![CDATA[Mouse hovering over QuickReports]]>
+    </line>
+    <line>
+      <![CDATA[QuickReports exists true]]>
+    </line>
+    <line>
+      <![CDATA[TicketReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[AlertReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[QRMNList exists true]]>
+    </line>
+    <line>
+      <![CDATA[AlertsCount exists true]]>
+    </line>
+    <line>
+      <![CDATA[EmergencyAlert exists true]]>
+    </line>
+    <line>
+      <![CDATA[NOCDefinedApplication exists true]]>
+    </line>
+    <line>
+      <![CDATA[UserPresenceAllocation exists true]]>
+    </line>
+    <line>
+      <![CDATA[QRCallingQueue exists true]]>
+    </line>
+    <line>
+      <![CDATA[ConditionalMonitoringReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[UserReview exists true]]>
+    </line>
+    <line>
+      <![CDATA[MSOQuickSearch exists true]]>
+    </line>
+    <line>
+      <![CDATA[MACAgentReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[RMMAgentReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[VaultAgentReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[MSPReasonCodesReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[HistoricalData exists true]]>
+    </line>
+    <line>
+      <![CDATA[TicketSynclog exists true]]>
+    </line>
+    <line>
+      <![CDATA[RMMVaultC247Reports exists true]]>
+    </line>
+    <line>
+      <![CDATA[AlertTicketAgingReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[SLAMissedHourlyFlowReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[RightAnswersReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[RightAnswersReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[SubStatusReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[ServerProjectSubStatusReport exists true]]>
+    </line>
+    <line>
+      <![CDATA[RightAnswerUtilization exists true]]>
     </line>
     <line>
       <![CDATA[*****  feature test has Passed *****]]>
     </line>
   </reporter-output>
-  <suite name="BDTSuite" duration-ms="185146" started-at="2016-10-20T13:46:06Z" finished-at="2016-10-20T13:49:11Z">
+  <suite name="BDTSuite" duration-ms="101186" started-at="2016-10-27T14:22:51Z" finished-at="2016-10-27T14:24:32Z">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="feature" class="continuum.cucumber.testRunner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="NOC-Test" duration-ms="185146" started-at="2016-10-20T13:46:06Z" finished-at="2016-10-20T13:49:11Z">
+    <test name="NOC-Test" duration-ms="101186" started-at="2016-10-27T14:22:51Z" finished-at="2016-10-27T14:24:32Z">
       <class name="continuum.cucumber.testRunner.TestRunner">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="beforeTest" is-config="true" duration-ms="3414" started-at="2016-10-20T19:16:07Z" finished-at="2016-10-20T19:16:11Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="beforeTest" is-config="true" duration-ms="2674" started-at="2016-10-27T19:52:52Z" finished-at="2016-10-27T19:52:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="setUpClass" is-config="true" duration-ms="215" started-at="2016-10-20T19:16:11Z" finished-at="2016-10-20T19:16:11Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="setUpClass" is-config="true" duration-ms="134" started-at="2016-10-27T19:52:55Z" finished-at="2016-10-27T19:52:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="feature" duration-ms="154255" started-at="2016-10-20T19:16:11Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2016-10-20T19:18:45Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="feature" duration-ms="71112" started-at="2016-10-27T19:52:55Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2016-10-27T19:54:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[As a user status I want to create ticket on NOC with different status]]>
+                <![CDATA[As a user I want to check all sub Menus in all Main Menus of NOC Portal]]>
               </value>
             </param>
           </params>
@@ -180,116 +475,411 @@ Driver info: driver.version: unknown</font></I></B>]]>
               <![CDATA[Close btn on popup exists true]]>
             </line>
             <line>
-              <![CDATA[Mouse hovering over management Tab]]>
+              <![CDATA[Mouse hovering over Activity]]>
             </line>
             <line>
-              <![CDATA[Mouse hovering over Tickets]]>
+              <![CDATA[Activity exists true]]>
             </line>
             <line>
-              <![CDATA[Clicking on  Generate New ticket btn]]>
+              <![CDATA[MenuAccessManagement exists true]]>
             </line>
             <line>
-              <![CDATA[Getting window handle]]>
+              <![CDATA[SwtichGroup exists true]]>
             </line>
             <line>
-              <![CDATA[Switching to new window]]>
+              <![CDATA[UserManagement exists true]]>
             </line>
             <line>
-              <![CDATA[Getting window handle]]>
+              <![CDATA[OldEventManagement exists true]]>
             </line>
             <line>
-              <![CDATA[Select value from MSP CMSPL32 sucessfully]]>
+              <![CDATA[AutoTicketRuleVeritas exists true]]>
             </line>
             <line>
-              <![CDATA[Writing Automation test ticketto  subject text box]]>
+              <![CDATA[AllowbypassTL exists true]]>
             </line>
             <line>
-              <![CDATA[Enter Value in  subject text box text field Automation test ticket Pass Value Automation test ticket entered successfully]]>
+              <![CDATA[Addknowledgebase exists true]]>
             </line>
             <line>
-              <![CDATA[Writing Description:automation test ticketto  description text box]]>
+              <![CDATA[ManageFAQKBArticle exists true]]>
             </line>
             <line>
-              <![CDATA[Enter Value in  description text box text field Description:automation test ticket Pass Value Description:automation test ticket entered successfully]]>
+              <![CDATA[UpdateUser exists true]]>
             </line>
             <line>
-              <![CDATA[Writing 99to  priority]]>
+              <![CDATA[MainDashboardConfig exists true]]>
             </line>
             <line>
-              <![CDATA[Enter Value in  priority text field 99 Pass Value 99 entered successfully]]>
+              <![CDATA[EscalationCategoryRelationship exists true]]>
             </line>
             <line>
-              <![CDATA[Select value from  Family dropdown Antivirus sucessfully]]>
+              <![CDATA[PartnerNOCSupportconfig exists true]]>
             </line>
             <line>
-              <![CDATA[Select value from  Ticket type dropdown Critical task need to be carried out.Require approval from CMSPL32 team Selected  Successfully]]>
+              <![CDATA[ReasonAssigntoMSP exists true]]>
             </line>
             <line>
-              <![CDATA[Get Selected List value from  sub status dropdown Selected value is New]]>
+              <![CDATA[ManageAutoTicketTemplate exists true]]>
             </line>
             <line>
-              <![CDATA[<B><I><font size='4' color='Blue'>Select value from  sub status dropdown New Fail  Found Exception while selecting value Cannot locate option with value: New
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'RMM-LT-654', ip: '10.2.14.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
-Driver info: driver.version: unknown</font></I></B>]]>
+              <![CDATA[ManageSubStatus exists true]]>
             </line>
             <line>
-              <![CDATA[Select value from  sub statsu dropdown Resolved: Solution Verified Selected  Successfully]]>
+              <![CDATA[Mouse hovering over Analysis]]>
             </line>
             <line>
-              <![CDATA[<B><I><font size='4' color='Blue'>Select value from  Resource dropdown <Resource> Fail  Found Exception while selecting value Cannot locate option with value: <Resource>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'RMM-LT-654', ip: '10.2.14.173', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
-Driver info: driver.version: unknown</font></I></B>]]>
+              <![CDATA[Analysis exists true]]>
             </line>
             <line>
-              <![CDATA[Clicking on   submit btn]]>
+              <![CDATA[TicketPerformancereport exists true]]>
             </line>
             <line>
-              <![CDATA[Get ticket no from popup]]>
+              <![CDATA[Liveuserreport exists true]]>
             </line>
             <line>
-              <![CDATA[Getting alert message]]>
+              <![CDATA[Alertfluctuation exists true]]>
             </line>
             <line>
-              <![CDATA[Waiting to alert]]>
+              <![CDATA[WorlloadAlert exists true]]>
             </line>
             <line>
-              <![CDATA[Accepting alert]]>
+              <![CDATA[TicketAnalysisReport exists true]]>
             </line>
             <line>
-              <![CDATA[Waiting to alert]]>
+              <![CDATA[Last24Devicedown exists true]]>
             </line>
             <line>
-              <![CDATA[Generated Ticket no201610200000204]]>
+              <![CDATA[LmiRescueAnalysis exists true]]>
             </line>
             <line>
-              <![CDATA[Verify ticket created in database]]>
+              <![CDATA[Mouse hovering over ITS247 Tools]]>
             </line>
             <line>
-              <![CDATA[Verify Ticket  generated in DB]]>
+              <![CDATA[ITS247 Tools exists true]]>
             </line>
             <line>
-              <![CDATA[SQL server connection: jdbc:sqlserver://10.2.40.76:1433;databaseName=NOCBO ;user=QA Automation;password=aUt0T3$t#958]]>
+              <![CDATA[ITS247submenu exists true]]>
             </line>
             <line>
-              <![CDATA[SQL query to execute: Select status,Assignto,assigntocell,Assigntogroup,Assigntouser,* from jmgttaskmanagement with(NOLOCK) where taskid in 201610200000204]]>
+              <![CDATA[ITS247submenu exists true]]>
             </line>
             <line>
-              <![CDATA[Ticket details from DB :null]]>
+              <![CDATA[Mouse hovering over Management]]>
+            </line>
+            <line>
+              <![CDATA[Management exists true]]>
+            </line>
+            <line>
+              <![CDATA[IntellimonAlerts exists true]]>
+            </line>
+            <line>
+              <![CDATA[Alerts exists true]]>
+            </line>
+            <line>
+              <![CDATA[Tickets exists true]]>
+            </line>
+            <line>
+              <![CDATA[TamIndiaDashboard exists true]]>
+            </line>
+            <line>
+              <![CDATA[PartnerFeedback exists true]]>
+            </line>
+            <line>
+              <![CDATA[PartnerFlag exists true]]>
+            </line>
+            <line>
+              <![CDATA[ManagedCustomerSurvetDetails exists true]]>
+            </line>
+            <line>
+              <![CDATA[ConnectwiseSiteMapping exists true]]>
+            </line>
+            <line>
+              <![CDATA[ConnectwiseSiteMapping exists true]]>
+            </line>
+            <line>
+              <![CDATA[SLADashboardConditionMapping exists true]]>
+            </line>
+            <line>
+              <![CDATA[ManagedPSAPartnetUser exists true]]>
+            </line>
+            <line>
+              <![CDATA[Priotization exists true]]>
+            </line>
+            <line>
+              <![CDATA[NOCWorkflowRedesign exists true]]>
+            </line>
+            <line>
+              <![CDATA[EmailtoTicket exists true]]>
+            </line>
+            <line>
+              <![CDATA[Mouse hovering over Settings]]>
+            </line>
+            <line>
+              <![CDATA[Settings exists true]]>
+            </line>
+            <line>
+              <![CDATA[Usersettings exists true]]>
+            </line>
+            <line>
+              <![CDATA[MessageBoard exists true]]>
+            </line>
+            <line>
+              <![CDATA[ViewFAQ exists true]]>
+            </line>
+            <line>
+              <![CDATA[Scheduledticketdue exists true]]>
+            </line>
+            <line>
+              <![CDATA[Closedalertreminder exists true]]>
+            </line>
+            <line>
+              <![CDATA[Handoverrequest exists true]]>
+            </line>
+            <line>
+              <![CDATA[Handoverrecive exists true]]>
+            </line>
+            <line>
+              <![CDATA[Mouse hovering over Report]]>
+            </line>
+            <line>
+              <![CDATA[Report exists true]]>
+            </line>
+            <line>
+              <![CDATA[MNList exists true]]>
+            </line>
+            <line>
+              <![CDATA[Alert exists true]]>
+            </line>
+            <line>
+              <![CDATA[ReportTicket exists true]]>
+            </line>
+            <line>
+              <![CDATA[NOCUsersReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[ReportITS247Tools exists true]]>
+            </line>
+            <line>
+              <![CDATA[EscalationAuditReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[PartnerDefinedMonitoring exists true]]>
+            </line>
+            <line>
+              <![CDATA[PartnerSupportPortal exists true]]>
+            </line>
+            <line>
+              <![CDATA[PerformanceReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[PSAReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[PartnetAlertCQTicketDetails exists true]]>
+            </line>
+            <line>
+              <![CDATA[NOCMISReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[RealTimePlayStatusManagement exists true]]>
+            </line>
+            <line>
+              <![CDATA[FalseAlarmReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[SMSSummaryReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[IntellimonKnowledgebaseReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[CustomerFeedbackSurveyReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[TechAdvantageReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[MSPUserDetails exists true]]>
+            </line>
+            <line>
+              <![CDATA[ManualSurverDetails exists true]]>
+            </line>
+            <line>
+              <![CDATA[Mouse hovering over DashboardInbox]]>
+            </line>
+            <line>
+              <![CDATA[DashboardInbox exists true]]>
+            </line>
+            <line>
+              <![CDATA[PartnetCommunicationInbox exists true]]>
+            </line>
+            <line>
+              <![CDATA[TeamboxShort exists true]]>
+            </line>
+            <line>
+              <![CDATA[GlobalServiceDeskInbox exists true]]>
+            </line>
+            <line>
+              <![CDATA[NocWorkflowRedesignBeta exists true]]>
+            </line>
+            <line>
+              <![CDATA[ContinuumVaultDashboard exists true]]>
+            </line>
+            <line>
+              <![CDATA[OffHRmaint exists true]]>
+            </line>
+            <line>
+              <![CDATA[ServerAlerts exists true]]>
+            </line>
+            <line>
+              <![CDATA[VeritasBackupAlert exists true]]>
+            </line>
+            <line>
+              <![CDATA[CommonAlert exists true]]>
+            </line>
+            <line>
+              <![CDATA[DeviceDownPreprocessing exists true]]>
+            </line>
+            <line>
+              <![CDATA[AgentMalfunctionInbox exists true]]>
+            </line>
+            <line>
+              <![CDATA[ApplicationMonitoring exists true]]>
+            </line>
+            <line>
+              <![CDATA[CallingQueue exists true]]>
+            </line>
+            <line>
+              <![CDATA[PreventiveMaintenanceInbox exists true]]>
+            </line>
+            <line>
+              <![CDATA[EmergencyLowDiskSpace exists true]]>
+            </line>
+            <line>
+              <![CDATA[EmailTransactionMonitoring exists true]]>
+            </line>
+            <line>
+              <![CDATA[VSSWriterAlerts exists true]]>
+            </line>
+            <line>
+              <![CDATA[PCService exists true]]>
+            </line>
+            <line>
+              <![CDATA[ServerProjects exists true]]>
+            </line>
+            <line>
+              <![CDATA[LinuxDashboard exists true]]>
+            </line>
+            <line>
+              <![CDATA[TechAdvantageDesktop exists true]]>
+            </line>
+            <line>
+              <![CDATA[TechAdvantageServer exists true]]>
+            </line>
+            <line>
+              <![CDATA[PSAMonitoringDashboard exists true]]>
+            </line>
+            <line>
+              <![CDATA[SLADashboardAlert exists true]]>
+            </line>
+            <line>
+              <![CDATA[SLADashboardTickets exists true]]>
+            </line>
+            <line>
+              <![CDATA[PSTInbox exists true]]>
+            </line>
+            <line>
+              <![CDATA[Mouse hovering over QuickReports]]>
+            </line>
+            <line>
+              <![CDATA[QuickReports exists true]]>
+            </line>
+            <line>
+              <![CDATA[TicketReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[AlertReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[QRMNList exists true]]>
+            </line>
+            <line>
+              <![CDATA[AlertsCount exists true]]>
+            </line>
+            <line>
+              <![CDATA[EmergencyAlert exists true]]>
+            </line>
+            <line>
+              <![CDATA[NOCDefinedApplication exists true]]>
+            </line>
+            <line>
+              <![CDATA[UserPresenceAllocation exists true]]>
+            </line>
+            <line>
+              <![CDATA[QRCallingQueue exists true]]>
+            </line>
+            <line>
+              <![CDATA[ConditionalMonitoringReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[UserReview exists true]]>
+            </line>
+            <line>
+              <![CDATA[MSOQuickSearch exists true]]>
+            </line>
+            <line>
+              <![CDATA[MACAgentReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[RMMAgentReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[VaultAgentReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[MSPReasonCodesReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[HistoricalData exists true]]>
+            </line>
+            <line>
+              <![CDATA[TicketSynclog exists true]]>
+            </line>
+            <line>
+              <![CDATA[RMMVaultC247Reports exists true]]>
+            </line>
+            <line>
+              <![CDATA[AlertTicketAgingReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[SLAMissedHourlyFlowReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[RightAnswersReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[RightAnswersReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[SubStatusReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[ServerProjectSubStatusReport exists true]]>
+            </line>
+            <line>
+              <![CDATA[RightAnswerUtilization exists true]]>
             </line>
             <line>
               <![CDATA[*****  feature test has Passed *****]]>
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="tearDownClass" is-config="true" duration-ms="25131" started-at="2016-10-20T19:18:45Z" finished-at="2016-10-20T19:19:10Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="tearDownClass" is-config="true" duration-ms="25101" started-at="2016-10-27T19:54:06Z" finished-at="2016-10-27T19:54:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="afterTest" is-config="true" duration-ms="743" started-at="2016-10-20T19:19:10Z" finished-at="2016-10-20T19:19:11Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:continuum.cucumber.testRunner.TestRunner@2d8f65a4]" name="afterTest" is-config="true" duration-ms="808" started-at="2016-10-27T19:54:31Z" finished-at="2016-10-27T19:54:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

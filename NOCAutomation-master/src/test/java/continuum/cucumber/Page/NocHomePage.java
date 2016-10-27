@@ -188,6 +188,11 @@ public class NocHomePage {
 	public Locator ServerProjectSubStatusReport = new  Locator ("ServerProjectSubStatusReport", "//table[@id='dm0m30i23it']/tbody/tr/td[2]");
 	public Locator RightAnswerUtilization = new  Locator ("RightAnswerUtilization", "//table[@id='dm0m30i24it']/tbody/tr/td[2]");
 	
+	//SLA Missed Hourly Report//
+	
+	public Locator Fromdate = new  Locator ("Fromdate", "//html/body/div[1]/form/div[2]/div[1]/div[2]/span/span/input");
+//	public Locator Fromdate = new  Locator ("Fromdate", "/html/body/form/table/tbody/tr[1]/td/table/tbody/tr/td[1]/div[2]/div[1]/div/table/tbody/tr[20]/td/table/tbody/tr/td[2]");
+	
 	
 	
 	
@@ -265,19 +270,29 @@ public void startNOCApplication(String url){
 		}
 		
 		
-		public void ITS247tools(){
+		public void ToOpenITS247tools(){
 		
 			wd.mouseHover(ITS247);
+			
 			wd.waitFor(1000);
+			
+		}
+		
+		public void ToVerifyElementITS247tools(){
 			Assert.assertEquals(wd.findElementPresent(ITS247),true,"ITS247 Tools Main menu is present");
 			Assert.assertEquals(wd.findElementPresent(ITS247tools),true,"ITS247tools Tools sub menu Main menu is present");
 			Assert.assertEquals(wd.findElementPresent(ITS247toolsAdvanced),true,"ITS247toolsAdvanced Tools sub menu Main menu is present");
 		}
 		
-		public void Analysis(){
+		public void ToOpenAnalysis(){
 			
 			wd.mouseHover(Analysis);
 			wd.waitFor(1000);
+			
+		}
+		
+		public void ToVerifyElementAnalysis(){
+			
 			Assert.assertEquals(wd.findElementPresent(Analysis),true,"Analysis Tools Main menu is present");
 			Assert.assertEquals(wd.findElementPresent(TicketPerformancereport),true,"TicketPerformancereport Tools sub menu Main menu is present");
 			Assert.assertEquals(wd.findElementPresent(Liveuserreport),true,"Liveuserreport Tools sub menu Main menu is present");
@@ -292,10 +307,15 @@ public void startNOCApplication(String url){
 		
 		
 		
-public void Settings(){
+public void ToOpenSettings(){
 			
 			wd.mouseHover(Settings);
 			wd.waitFor(1000);
+			
+}
+
+public void ToVerifyElementSettings(){
+	
 			Assert.assertEquals(wd.findElementPresent(Settings),true,"Settings Tools Main menu is present");
 			Assert.assertEquals(wd.findElementPresent(Usersettings ),true,"Usersettings Tools sub menu Main menu is present");
 			Assert.assertEquals(wd.findElementPresent(MessageBoard ),true,"MessageBoard Tools sub menu Main menu is present");
@@ -310,10 +330,14 @@ public void Settings(){
 		
 
 
-public void Activity(){
+public void ToOpenActivity(){
 
 	wd.mouseHover(Activity);
 	wd.waitFor(1000);
+	
+}
+
+public void ToVerifyElementActivity(){
 	Assert.assertEquals(wd.findElementPresent(Activity ),true,"ITS247 Tools Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(MenuAccessManagement ),true,"ITS247tools Tools sub menu Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(SwtichGroup ),true,"ITS247toolsAdvanced Tools sub menu Main menu is present");
@@ -334,10 +358,14 @@ public void Activity(){
 }
 		
 
-public void Management(){
+public void ToOpenManagement(){
 
 	wd.mouseHover(Management);
 	wd.waitFor(1000);
+	
+}
+
+public void ToVerifyElementManagement(){
 	Assert.assertEquals(wd.findElementPresent(Management),true,"Management Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(IntellimonAlerts  ),true,"IntellimonAlerts Tools sub menu Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(Alerts  ),true,"Alerts Tools sub menu Main menu is present");
@@ -359,10 +387,14 @@ public void Management(){
 }
 
 
-public void Report(){
+public void ToOpenReport(){
 
 	wd.mouseHover(Report);
 	wd.waitFor(1000);
+	
+}
+
+public void ToVerifyElementReport(){
 	Assert.assertEquals(wd.findElementPresent(Report ),true,"Report Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(MNList   ),true,"MNList Tools sub menu Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(Alert   ),true,"Alert Tools sub menu Main menu is present");
@@ -389,10 +421,14 @@ public void Report(){
 
 }
 
-public void DashboardInbox(){
+public void ToOpenDashboardInbox(){
 
 	wd.mouseHover(DashboardInbox);
 	wd.waitFor(1000);
+	
+}
+
+public void ToVerifyDashboardInbox(){
 	Assert.assertEquals(wd.findElementPresent(DashboardInbox ),true,"DashboardInbox Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(PartnetCommunicationInbox ),true,"PartnetCommunicationInbox Tools sub menu Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(TeamboxShort    ),true,"TeamboxShort Tools sub menu Main menu is present");
@@ -426,10 +462,14 @@ public void DashboardInbox(){
 }
 
 
-public void QuickReports(){
+public void ToOpenQuickReports(){
 
 	wd.mouseHover(QuickReports);
 	wd.waitFor(1000);
+	
+}
+
+public void ToVerifyElementQuickReports(){
 	Assert.assertEquals(wd.findElementPresent(QuickReports  ),true,"DashboardInbox Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(TicketReport  ),true,"PartnetCommunicationInbox Tools sub menu Main menu is present");
 	Assert.assertEquals(wd.findElementPresent(AlertReport     ),true,"TeamboxShort Tools sub menu Main menu is present");
@@ -461,8 +501,6 @@ public void QuickReports(){
 	
 
 }
-
-
 
 
 public void gotToGenerateTicket(){
