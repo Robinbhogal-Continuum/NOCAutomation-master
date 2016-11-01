@@ -1,9 +1,9 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DemoSprint/BVT.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DemoSprint/SLAreport.feature");
 formatter.feature({
   "line": 1,
-  "name": "As a user I want to check all sub Menus in all Main Menus of NOC Portal",
+  "name": "As a user I want to Test SLA Missed \u0026 Hourly flow report",
   "description": "",
-  "id": "as-a-user-i-want-to-check-all-sub-menus-in-all-main-menus-of-noc-portal",
+  "id": "as-a-user-i-want-to-test-sla-missed-\u0026-hourly-flow-report",
   "keyword": "Feature"
 });
 formatter.background({
@@ -27,232 +27,76 @@ formatter.match({
   "location": "StepDefinations.openApplication()"
 });
 formatter.result({
-  "duration": 3541364043,
+  "duration": 3529445156,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinations.user_is_login_to_NOC_portal()"
 });
 formatter.result({
-  "duration": 36006878996,
+  "duration": 35774710123,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 9,
-  "name": "Verify all sub menus under Main Menu of NOC Portal",
+  "line": 8,
+  "name": "Verify that user is able to open SLA missed \u0026 Hourly flow report",
   "description": "",
-  "id": "as-a-user-i-want-to-check-all-sub-menus-in-all-main-menus-of-noc-portal;verify-all-sub-menus-under-main-menu-of-noc-portal",
+  "id": "as-a-user-i-want-to-test-sla-missed-\u0026-hourly-flow-report;verify-that-user-is-able-to-open-sla-missed-\u0026-hourly-flow-report",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 8,
-      "name": "@Robin"
+      "line": 7,
+      "name": "@SLA"
     }
   ]
 });
 formatter.step({
-  "line": 10,
-  "name": "User clicks on Activity  Main Menu",
+  "line": 9,
+  "name": "User clicks on SLA missed \u0026 Hourly flow report under Quick Reports Main Menu",
   "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "System should open up SLA missed \u0026 Hourly flow report",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 11,
-  "name": "Verify Correct Sub menus get displayed  in Activity Main Menu",
-  "keyword": "Then "
+  "name": "All required menus, buttons and fields should be displayed",
+  "keyword": "And "
 });
 formatter.step({
-  "line": 13,
-  "name": "User clicks on Analysis  Main Menu",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "Verify Correct Sub menus get displayed in Analysis Main Menu",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 16,
-  "name": "User clicks on  ITS247 Tools Main Menu",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 17,
-  "name": "Verify Correct Sub menus get displayed in ITS247Tools Main Menu",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 19,
-  "name": "User clicks on Management  Main Menu",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 20,
-  "name": "Verify Correct Sub menus get displayed in Management Main Menu",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 22,
-  "name": "User clicks on Settings  Main Menu",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 23,
-  "name": "Verify Correct Sub menus get displayed  in Settings Main Menu",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 25,
-  "name": "User clicks on Report  Main Menu",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 26,
-  "name": "Verify Correct Sub menus get displayed in Report Main Menu",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 28,
-  "name": "User clicks on DashboardInbox  Main Menu",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 29,
-  "name": "Verify Correct Sub menus get displayed  in DashboardInbox Main Menu",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 31,
-  "name": "User clicks on Quick Reports  Main Menu",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 32,
-  "name": "Verify Correct Sub menus get displayed  in Quick Reports Main Menu",
-  "keyword": "Then "
+  "line": 12,
+  "name": "User should be able to click fields",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "StepDefination1.user_clicks_on_Activity_Main_Menu()"
+  "location": "StepDefination1.user_clicks_on_SLA_missed_Hourly_flow_report_under_Quick_Reports_Main_Menu()"
 });
 formatter.result({
-  "duration": 3337647947,
+  "duration": 18878495107,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefination1.verify_Correct_Sub_menus_get_displayed_in_Activity_Main_Menu()"
+  "location": "StepDefination1.system_should_open_up_SLA_missed_Hourly_flow_report()"
 });
 formatter.result({
-  "duration": 725035296,
+  "duration": 585759527,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefination1.user_clicks_on_Analysis_Main_Menu()"
+  "location": "StepDefination1.all_required_menus_buttons_and_fields_should_be_displayed()"
 });
 formatter.result({
-  "duration": 3202197613,
+  "duration": 522396378,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefination1.verify_Correct_Sub_menus_get_displayed_in_Analysis_Main_Menu()"
+  "location": "StepDefination1.user_should_be_able_to_click_fields()"
 });
 formatter.result({
-  "duration": 411056957,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "247",
-      "offset": 19
-    }
-  ],
-  "location": "StepDefination1.user_clicks_on_ITS_Tools_Main_Menu(int)"
-});
-formatter.result({
-  "duration": 3158914135,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "247",
-      "offset": 45
-    }
-  ],
-  "location": "StepDefination1.verify_Correct_Sub_menus_get_displayed_in_ITS_Tools_Main_Menu(int)"
-});
-formatter.result({
-  "duration": 194060456,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.user_clicks_on_Management_Main_Menu()"
-});
-formatter.result({
-  "duration": 3222662370,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.verify_Correct_Sub_menus_get_displayed_in_Management_Main_Menu()"
-});
-formatter.result({
-  "duration": 752052757,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.user_clicks_on_Settings_Main_Menu()"
-});
-formatter.result({
-  "duration": 3174844774,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.verify_Correct_Sub_menus_get_displayed_in_Settings_Main_Menu()"
-});
-formatter.result({
-  "duration": 422511944,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.user_clicks_on_Report_Main_Menu()"
-});
-formatter.result({
-  "duration": 3144551751,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.verify_Correct_Sub_menus_get_displayed_in_Report_Main_Menu()"
-});
-formatter.result({
-  "duration": 910932524,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.user_clicks_on_DashboardInbox_Main_Menu()"
-});
-formatter.result({
-  "duration": 3176054741,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.verify_Correct_Sub_menus_get_displayed_in_DashboardInbox_Main_Menu()"
-});
-formatter.result({
-  "duration": 1306284402,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.user_clicks_on_Quick_Reports_Main_Menu()"
-});
-formatter.result({
-  "duration": 3155812779,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefination1.verify_Correct_Sub_menus_get_displayed_in_Quick_Reports_Main_Menu()"
-});
-formatter.result({
-  "duration": 1182039396,
+  "duration": 4554437028,
   "status": "passed"
 });
 });

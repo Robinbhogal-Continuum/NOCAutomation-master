@@ -5,7 +5,7 @@ Background:
  And User is login to NOC portal 
 
 
-@Robin
+@BVT
 Scenario: Verify all sub menus under Main Menu of NOC Portal
  When  User clicks on Activity  Main Menu
  Then Verify Correct Sub menus get displayed  in Activity Main Menu

@@ -4,7 +4,7 @@ Background:
  Given Open NOC application 
  And User is login to NOC portal 
  
-@P1
+@SLA
 Scenario: Verify that user is able to open SLA missed & Hourly flow report
  When  User clicks on SLA missed & Hourly flow report under Quick Reports Main Menu
  Then System should open up SLA missed & Hourly flow report

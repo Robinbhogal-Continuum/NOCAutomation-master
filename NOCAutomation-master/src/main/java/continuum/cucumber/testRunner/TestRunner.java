@@ -40,7 +40,7 @@ plugin = {
 "html:test-report/cucumber",
 "json:test-report/cucumber.json",
 "rerun:target/rerun.txt" },
-tags={"@Robin"}
+tags={"@SLA"}
 )
 public class TestRunner {
 private TestNGCucumberRunner testNGCucumberRunner;

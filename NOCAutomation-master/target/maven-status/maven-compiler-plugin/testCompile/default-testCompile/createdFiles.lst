@@ -1,7 +1,7 @@
 continuum\cucumber\Page\DBConnection.class
 continuum\cucumber\stepDefinations\StepDefination1.class
 continuum\cucumber\Page\NocHomePage.class
-continuum\cucumber\Page\PageFactory.class
 continuum\cucumber\Page\NOCGenerateTicketPage.class
-continuum\cucumber\stepDefinations\StepDefinations.class
 continuum\cucumber\Page\SLAMissedReport.class
+continuum\cucumber\Page\PageFactory.class
+continuum\cucumber\stepDefinations\StepDefinations.class
